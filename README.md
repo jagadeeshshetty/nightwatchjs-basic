@@ -1,2 +1,4 @@
-# nightwatchjs-basic
-Will help to get started with basic setup and run the test on web browsers.
+
+# Nightwatch setup + run
+
+Will get start with basic setup and the run the test on web browsers.
