@@ -395,20 +395,31 @@ blockquote {
 <p>WebDriver is now a W3C specification aiming to standardize browser automation. WebDriver is a remote control interface that enables introspection and control of user agents. It provides a platform and a restful HTTP api as a way for web browsers to be remotely controlled.</p>
 <h1 id="theory-of-operation">Theory of Operation</h1>
 <p>Nightwatch works by communicating over a restful HTTP API with a WebDriver server (such as ChromeDriver or Selenium Server). The protocol is defined by the W3C WebDriver spec, which is derived from <a href="https://github.com/SeleniumHQ/selenium/wiki/JsonWireProtocol">JSON Wire protocol</a>. See below for an example workflow for browser initialization.</p>
-<p><img src="images/operation.png" alt="alt text" title="operation"></p>
+<p><img src="images/operation.png" alt="alt text"></p>
 <p>Most of the times, Nightwatch needs to send at least 2 requests to the WebDriver server in order to perform a command or assertion.
 ...The first one being the request to locate an element given a CSS selector (or Xpath expression)
 ...Next to perform the actual command/assertion on the given element.</p>
 <h1 id="setup">Setup</h1>
 <ol>
-<li>Node.js should be installed.</li>
-<li>NPM should be installed.</li>
-<li>Create a directory with nightwatchjs-basic name.</li>
+<li><strong>Node.js</strong> should be installed.</li>
+<li><strong>NPM</strong> should be installed.</li>
+<li>Create a directory with <strong>nightwatchjs-basic</strong> name.</li>
 <li>Run <code>npm init</code> and complete with basic details.</li>
 <li>Run <code>npm install nightwatch</code> to install nightwatch within workspace.</li>
-<li>Install nightwatch within workspace.</li>
+<li>Download <code>selenium</code> and <code>chrome</code> drivers and copy to <code>bin</code> directory.</li>
+<li>Create <code>nightwatch.json</code> file within working directory. The nightwatch test runner binary expects a configuration file.</li>
+<li>Create <code>tests</code> directory and create <code>homepage.js</code> file.</li>
+<li>Update <code>package.json</code> with test runner for <code>scripts</code> value.</li>
 </ol>
+<h1 id="screenshots">Screenshots</h1>
+<h2 id="nightwatchconf">nightwatch.conf</h2>
+<p><img src="images/nightwatch.png" alt="alt text"></p>
+<h2 id="testshomepagejs">tests/homepage.js</h2>
+<p><img src="images/homepage.png" alt="alt text"></p>
+<h2 id="packagejson">package.json</h2>
+<p><img src="images/package.png" alt="alt text"></p>
 <h1 id="run">Run</h1>
+<p><img src="images/test-execution.png" alt="alt text"></p>
 <h1 id="reference">Reference</h1>
 <p><a href="http://nightwatchjs.org/gettingstarted">Official Nightwatch</a></p>
 

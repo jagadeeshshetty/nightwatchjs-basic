@@ -19,7 +19,7 @@ WebDriver is now a W3C specification aiming to standardize browser automation. W
 
 Nightwatch works by communicating over a restful HTTP API with a WebDriver server (such as ChromeDriver or Selenium Server). The protocol is defined by the W3C WebDriver spec, which is derived from [JSON Wire protocol](https://github.com/SeleniumHQ/selenium/wiki/JsonWireProtocol). See below for an example workflow for browser initialization.
 
-![alt text](images/operation.png "operation")
+![alt text](images/operation.png)
 
 Most of the times, Nightwatch needs to send at least 2 requests to the WebDriver server in order to perform a command or assertion. 
 ...The first one being the request to locate an element given a CSS selector (or Xpath expression)
@@ -27,13 +27,33 @@ Most of the times, Nightwatch needs to send at least 2 requests to the WebDriver
 
 # Setup
 
-1. Node.js should be installed.
-2. NPM should be installed.
-3. Create a directory with nightwatchjs-basic name.
+1. **Node.js** should be installed.
+2. **NPM** should be installed.
+3. Create a directory with **nightwatchjs-basic** name.
 4. Run `npm init` and complete with basic details.
 5. Run `npm install nightwatch` to install nightwatch within workspace.
+6. Download `selenium` and `chrome` drivers and copy to `bin` directory.
+7. Create `nightwatch.json` file within working directory. The nightwatch test runner binary expects a configuration file.
+8. Create `tests` directory and create `homepage.js` file.
+9. Update `package.json` with test runner for `scripts` value.
+
+# Screenshots
+
+## nightwatch.conf
+
+  ![alt text](images/nightwatch.png)
+
+## tests/homepage.js
+
+  ![alt text](images/homepage.png)
+
+## package.json
+
+  ![alt text](images/package.png)
 
 # Run
+
+![alt text](images/test-execution.png)
 
 # Reference
 

@@ -4,7 +4,7 @@
   "description": "helps to get started with nightwatchjs setup and test run on web browsers.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test-e2e": "nightwatch"
   },
   "repository": {
     "type": "git",
