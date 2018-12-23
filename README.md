@@ -21,7 +21,7 @@ Nightwatch works by communicating over a restful HTTP API with a WebDriver serve
 
 ![alt text](images/operation.png)
 
-Most of the times, Nightwatch needs to send at least 2 requests to the WebDriver server in order to perform a command or assertion. 
+Most of the times, Nightwatch needs to send at least 2 requests to the WebDriver server in order to perform a command or assertion.
 ...The first one being the request to locate an element given a CSS selector (or Xpath expression)
 ...Next to perform the actual command/assertion on the given element.
 
