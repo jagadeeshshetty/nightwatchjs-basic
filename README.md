@@ -1,8 +1,10 @@
 
 # What is Nightwatch
 
-[![npm-version](https://img.shields.io/badge/nightwatch-v1.0.16-informational.svg)](https://www.npmjs.com/package/nightwatch/v/1.0.16)
+![build](https://img.shields.io/badge/build-success-brightgreen.svg)
+[![npm-version](https://img.shields.io/badge/nightwach-v1.0.19-informational.svg)](https://www.npmjs.com/package/nightwatch/v/1.0.19)
 [![npm-nightwatch](https://img.shields.io/badge/weekly%20downloads-155k%2B-brightgreen.svg?style=social&logo=appveyor)](https://www.npmjs.com/package/nightwatch)
+
 [![author-linkedin](https://img.shields.io/badge/author-Jagadeesh%20Shetty-success.svg)](https://www.linkedin.com/in/jagadeesh-c-2a3a9423)
 
 Nightwatch.js is an automated testing framework for web applications and websites, written in Node.js and using the [W3C WebDriver](https://www.w3.org/TR/webdriver/) API (formerly [Selenium WebDriver](https://github.com/SeleniumHQ/selenium/wiki/JsonWireProtocol)).
