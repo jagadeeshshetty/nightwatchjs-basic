@@ -2,7 +2,7 @@
 # What is Nightwatch
 
 ![build](https://img.shields.io/badge/build-success-brightgreen.svg)
-[![npm-version](https://img.shields.io/badge/nightwach-v1.0.19-informational.svg)](https://www.npmjs.com/package/nightwatch/v/1.0.19)
+[![npm-version](https://img.shields.io/badge/nightwach-v1.1.11-important.svg)](https://www.npmjs.com/package/nightwatch/v/1.0.19)
 [![npm-nightwatch](https://img.shields.io/badge/weekly%20downloads-155k%2B-brightgreen.svg?style=social&logo=appveyor)](https://www.npmjs.com/package/nightwatch)
 
 [![author-linkedin](https://img.shields.io/badge/author-Jagadeesh%20Shetty-success.svg)](https://www.linkedin.com/in/jagadeesh-c-2a3a9423)
@@ -45,9 +45,9 @@ Most of the times, Nightwatch needs to send at least 2 requests to the WebDriver
 
 # Screenshots
 
-## nightwatch.conf
+## nightwatch.conf.js
 
-  ![alt text](images/nightwatch.png)
+  ![alt text](images/nightwatch.conf.js.png)
 
 ## tests/homepage.js
 
@@ -60,6 +60,17 @@ Most of the times, Nightwatch needs to send at least 2 requests to the WebDriver
 # Run
 
 ![alt text](images/test-execution.png)
+
+# Version changes
+
+## 1.1.0
+
+- No need of individual driver download on mac and windows os. Removed explicit dependency on drivers. Now automatically download required drivers during `npm i` run.
+
+## 1.0.0
+
+- Basic project setup with Nightwatch framework and run.
+- Depends on Selenium and Chrome web driver.
 
 # Reference
 
