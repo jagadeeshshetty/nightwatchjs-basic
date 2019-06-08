@@ -1,6 +1,6 @@
 {
   "name": "nightwatchjs-basic",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "helps to get started with nightwatchjs setup and test run on web browsers.",
   "main": "index.js",
   "scripts": {
