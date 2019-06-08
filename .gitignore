@@ -1,6 +1,8 @@
 
 node_modules
+tests_output
 selenium-server.log
+chromedriver.log
 README.jpeg
 README.png
 README.html
