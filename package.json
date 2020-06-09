@@ -4,7 +4,10 @@
   "description": "helps to get started with nightwatchjs setup and test run on web browsers.",
   "main": "index.js",
   "scripts": {
-    "test-e2e": "nightwatch -c nightwatch.conf.js"
+    "test-e2e": "nightwatch -c nightwatch.conf.js",
+    "test:desktopChrome": "nightwatch -c nightwatch.conf.js ./tests/web.js --tag desktopChrome -e desktopChrome",
+    "test:androidChrome": "nightwatch -c nightwatch.conf.js ./tests/web.js --tag androidChrome -e androidChrome",
+    "test:androidNative": "nightwatch -c nightwatch.conf.js ./tests/app.js --tag androidNative -e androidNative"
   },
   "repository": {
     "type": "git",
@@ -27,6 +30,6 @@
   "homepage": "https://github.com/jagadeeshshetty/nightwatchjs-basic#readme",
   "dependencies": {
     "nightwatch": "^1.1.11",
-    "chromedriver": "^74.0.0"
+    "chromedriver": "^83.0"
   }
 }
