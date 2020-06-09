@@ -75,3 +75,4 @@ Most of the times, Nightwatch needs to send at least 2 requests to the WebDriver
 # Reference
 
 [Official Nightwatch](http://nightwatchjs.org/gettingstarted)
+[Android Reference](https://github.com/nightwatchjs/nightwatch/wiki/Testing-Android-native-application-and-mobile-browsers-with-Appium)
