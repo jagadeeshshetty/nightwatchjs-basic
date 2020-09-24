@@ -63,6 +63,10 @@ Most of the times, Nightwatch needs to send at least 2 requests to the WebDriver
 
 # Version changes
 
+## 1.2.0
+- Preserved with `1.2.0` tag.
+- Nightwatch `1.1.11`, Chromedriver `74.0.0` version
+
 ## 1.1.0
 
 - No need of individual driver download on mac and windows os. Removed explicit dependency on drivers. Now automatically download required drivers during `npm i` run.
