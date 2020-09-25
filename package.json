@@ -1,10 +1,10 @@
 {
   "name": "nightwatchjs-basic",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "helps to get started with nightwatchjs setup and test run on web browsers.",
   "main": "index.js",
   "scripts": {
-    "test-e2e": "nightwatch -c nightwatch.conf.js"
+    "test": "nightwatch -c nightwatch.conf.js"
   },
   "repository": {
     "type": "git",
@@ -19,14 +19,14 @@
     "automation",
     "chrome"
   ],
-  "author": "JAGADEESH C",
+  "author": "JAGADEESH C <jagadeesh.cheluvaraj@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jagadeeshshetty/nightwatchjs-basic/issues"
   },
   "homepage": "https://github.com/jagadeeshshetty/nightwatchjs-basic#readme",
   "dependencies": {
-    "nightwatch": "^1.1.11",
-    "chromedriver": "^74.0.0"
+    "nightwatch": "^1.4.3",
+    "chromedriver": "^85.0.1"
   }
 }
