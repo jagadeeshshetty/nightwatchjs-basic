@@ -6,3 +6,4 @@ chromedriver.log
 README.jpeg
 README.png
 README.html
+*.log

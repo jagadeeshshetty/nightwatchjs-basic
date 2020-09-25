@@ -1,4 +1,3 @@
-
 # What is Nightwatch
 
 ![build](https://img.shields.io/badge/build-success-brightgreen.svg)
@@ -11,7 +10,7 @@ Nightwatch.js is an automated testing framework for web applications and website
 
 It is a complete End-to-End testing solution which aims to simplify writing automated tests and setting up Continuous Integration. Nightwatch can also be used for writing Node.js unit and integration tests.
 
-*The name Nightwatch was inspired by the famous painting The Night Watch by Dutch artist Rembrandt van Rijn. The masterpiece is prominently displayed in the Rijksmuseum, in Amsterdam - The Netherlands.*
+_The name Nightwatch was inspired by the famous painting The Night Watch by Dutch artist Rembrandt van Rijn. The masterpiece is prominently displayed in the Rijksmuseum, in Amsterdam - The Netherlands._
 
 # Overview of WebDriver
 
@@ -47,23 +46,34 @@ Most of the times, Nightwatch needs to send at least 2 requests to the WebDriver
 
 ## nightwatch.conf.js
 
-  ![alt text](images/nightwatch.conf.js.png)
+![alt text](images/nightwatch.conf.js.png)
 
 ## tests/homepage.js
 
-  ![alt text](images/homepage.png)
+![alt text](images/homepage.png)
 
 ## package.json
 
-  ![alt text](images/package.png)
+![alt text](images/package.png)
 
 # Run
+
+`$ npm run test`
 
 ![alt text](images/test-execution.png)
 
 # Version changes
 
+# 1.3.0
+
+- Updated dependencies
+  - Nightwatch `1.4.3`
+  - Chromedriver `85.0.1`
+- Updated test run command
+- Updated readme with test run screenshot.
+
 ## 1.2.0
+
 - Preserved with `1.2.0` tag.
 - Nightwatch `1.1.11`, Chromedriver `74.0.0` version
 
