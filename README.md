@@ -62,6 +62,15 @@ Most of the times, Nightwatch needs to send at least 2 requests to the WebDriver
 
 ![alt text](images/test-execution.png)
 
+# Run with tags
+
+- Single test case
+  - `npm run test -- getLogsCause404`
+  - `npm run test -- getLogsLogInfo`
+- Multiple test cases
+  - `getLogsCause404` and `getLogsLogInfo` both linked with `chromeDevTools` tag.
+  - `npm run test -- chromeDevTools`
+
 # Version changes
 
 # 1.3.0

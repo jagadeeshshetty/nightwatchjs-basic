@@ -4,7 +4,7 @@
   "description": "helps to get started with nightwatchjs setup and test run on web browsers.",
   "main": "index.js",
   "scripts": {
-    "test": "nightwatch -c nightwatch.conf.js"
+    "test": "nightwatch -c nightwatch.conf.js --tag"
   },
   "repository": {
     "type": "git",

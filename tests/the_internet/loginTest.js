@@ -1,5 +1,6 @@
 
 module.exports = {
+    '@tags': ['theInternetValidLogin'],
     'Test login': function (client) {
         client
             .url('http://the-internet.herokuapp.com/login')
